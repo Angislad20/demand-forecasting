@@ -1,0 +1,31 @@
+# ---  ---
+data/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# --- Caches Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Environnements virtuels ---
+venv/
+.venv/
+env/
+.env/
+
+# --- Modèles et exports lourds ---
+*.pkl
+*.joblib
+*.model
+*.h5
+
+# --- Caches IDE et OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
